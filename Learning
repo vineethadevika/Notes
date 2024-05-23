@@ -1,0 +1,24 @@
+1.String Formatting:
+String.format("%02d", variablename);
+It formats the integer variablename with leading zeros to ensure it's at least two characters wide.
+Example: int hour = 5; would indeed produce "05" when formatted using this string format.
+
+2.Removing Characters from the End of a String:
+String time = str[0].substring(0, 2);
+This extracts the first two characters from the string str[0].
+It's worth mentioning that this will take the first two characters regardless of what they are, not specifically removing characters from the end.
+
+3.Formatting Floating Point Numbers:
+System.out.format("%.6f", variablename);
+It formats the floating-point number variablename with six decimal places.
+Example: double ans = 5.0; would produce "5.000000" 
+
+4.Accessing Values from a List:
+listname.get(indexvalue);
+This retrieves the value at the specified index in the list.
+Example: listname.get(i); or listname.get(0); 
+
+5.Sorting a List:
+Collections.sort(listname);
+It sorts the elements in the list in ascending order.
+Example: Collections.sort(arr); 
