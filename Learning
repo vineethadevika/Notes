@@ -22,3 +22,9 @@ Example: listname.get(i); or listname.get(0);
 Collections.sort(listname);
 It sorts the elements in the list in ascending order.
 Example: Collections.sort(arr); 
+
+6.Accessing 2D Array Values in a List of Lists in Java
+A List<List<T>> in Java represents a 2D array, where T is the type of elements stored in the array. You can visualize it as a table with rows and columns, where each List<T> represents a row.
+--Accessing Elements--
+To access an element at row i and column j:
+listName.get(i).get(j);
